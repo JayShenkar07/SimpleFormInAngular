@@ -1,0 +1,28 @@
+.row
+{
+    display: block;
+}
+
+
+
+.dropdown-container {
+    width: 92.5%;
+    margin: 10px; /* Adjust margin as needed */
+  }
+  
+  .custom-dropdown {
+    width: 100%; /* Use 100% width inside the container */
+    padding: 8px; /* Add some padding for better appearance */
+  }
+  
+
+  .textarea-container {
+    width: 92.5%;
+    margin: 10px; /* Adjust margin as needed */
+  }
+  
+  .custom-textarea {
+    width: 100%; /* Use 100% width inside the container */
+    padding: 8px; /* Add some padding for better appearance */
+    box-sizing: border-box; /* Include padding in the total width/height */
+  }

@@ -1,0 +1,28 @@
+<br><br><br>
+
+<div class="row">
+    <h3><pre>    Date and time when you first noticed this bug*</pre></h3>
+    <div class="col-xs-12 col-12 col-md-4 form-group mb-3">
+      <input style="position: relative; left: 40px;" type="text"
+             placeholder="Datepicker"
+             class="form-control"
+             bsDatepicker>
+    </div>
+
+    <br>
+    <h3><pre>    Impact*</pre></h3>
+    <div style="position: relative; left: 30px;" class="dropdown-container">
+        <select (change)="onOptionSelected($event)" name="options" id="options" class="custom-dropdown">
+          <option value="option1">Low</option>
+          <option value="option2">Medium</option>
+          <option value="option3">High</option>
+          <!-- Add more options as needed -->
+        </select>
+      </div>
+
+      <br>
+
+      <h3><pre>    Detailed Explaination of Bug*</pre></h3>
+      <div style="position: relative; left: 30px;" class="textarea-container">
+        <textarea name="Input" id="id1" class="custom-textarea" cols="25" rows="10"></textarea>
+      </div>
